@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Zyo {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        
+        double x,y,z;
+        x = scan.nextInt();
+        y = scan.nextInt();
+        z = scan.nextInt();
+        double S = x + y + z;
+        double A = S/3;
+        double P = x * y * z;
+        System.out.println("sum is = " + S + "\n" +"average is = " + A  +"product is = " + P );
+        System.out.println("average is = " +A);
+        System.out.println("product is = " + P);
+        scan.close();
+    }
+}
